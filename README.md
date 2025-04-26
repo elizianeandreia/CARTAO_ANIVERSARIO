@@ -13,7 +13,7 @@ Este é um projeto simples e divertido criado apenas com HTML e CSS, ideal para 
 
 <li>Design responsivo e moderno</li>
 
-<li>Navegação amigável e acessível para leitores de tela</li>
+<li><b>Navegação amigável e acessível para leitores de tela</b></li>
 
 <li>Links estilizados e adaptados para diferentes estados (hover, focus, active, visited)</li>
 </ul>
