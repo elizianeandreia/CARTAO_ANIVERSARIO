@@ -59,6 +59,7 @@ h1::after {
 .cartao-links a:focus {
     background-color: rgb(152, 81, 180);
     color: white;
+    outline:2px solid white;
 }
 
 .cartao-links a:active {
