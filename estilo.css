@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: rgb(235, 184, 222);
+    max-width: 400px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(238, 158, 171);
+    transition: transform 0.3s, background-color 0.3s ease;
+    text-align: center;
+}
+
+.cartao:hover {
+    background-color: rgb(214, 207, 221);
+    transform: scale(1.05);
+}
+
+h1::before {
+    content: "🥳 ";
+}
+
+h1::after {
+    content: " 🥳";
+}
+
+.mensagem {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: rgb(95, 95, 95);
+}
+
+.cartao-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cartao-links a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(62, 1, 68);
+    background-color: rgb(230, 223, 221);
+    transition: background-color 0.3s, color 0.3s ease;
+    margin: 5px;
+}
+
+.cartao-links a:hover,
+.cartao-links a:focus {
+    background-color: rgb(152, 81, 180);
+    color: white;
+}
+
+.cartao-links a:active {
+    color: aqua;
+}
+
+.cartao-links a:visited {
+    color: crimson;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: rgb(179, 117, 179);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(206, 206, 206);
+    font-family: monospace;
+    display: none;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: skewX(5deg);
+}
+
+section:target {
+    display: block;
+}
